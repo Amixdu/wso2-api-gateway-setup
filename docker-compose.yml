@@ -1,0 +1,10 @@
+version: '3'
+services:
+  wso2am:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "9443:9443"
+      - "8280:8280"
+      - "8243:8243"

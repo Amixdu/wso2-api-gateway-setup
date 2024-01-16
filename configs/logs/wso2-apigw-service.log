@@ -1,0 +1,5 @@
+2024-01-16T14:18:13,192 [-] [Framework Event Dispatcher: Equinox Container: c8750626-df1a-4a72-a619-9e8f8f6d496d]  INFO WorkflowCallbackService Building Axis service for Proxy service : WorkflowCallbackService
+2024-01-16T14:18:13,202 [-] [Framework Event Dispatcher: Equinox Container: c8750626-df1a-4a72-a619-9e8f8f6d496d]  INFO WorkflowCallbackService Adding service WorkflowCallbackService to the Axis2 configuration
+2024-01-16T14:18:13,204 [-] [Framework Event Dispatcher: Equinox Container: c8750626-df1a-4a72-a619-9e8f8f6d496d]  INFO WorkflowCallbackService Successfully created the Axis2 service for Proxy service : WorkflowCallbackService
+2024-01-16T14:18:32,262 [-] [PassThroughMessageProcessor-1]  INFO __SynapseService STATUS = Message dispatched to the main sequence. Invalid URL., RESOURCE = /json-placeholder/v1/users, HEALTH CHECK URL = /json-placeholder/v1/users
+2024-01-16T14:32:29,370 [-] [PassThroughMessageProcessor-8]  INFO __SynapseService STATUS = Message dispatched to the main sequence. Invalid URL., RESOURCE = /fakestoreapi/v1/products, HEALTH CHECK URL = /fakestoreapi/v1/products

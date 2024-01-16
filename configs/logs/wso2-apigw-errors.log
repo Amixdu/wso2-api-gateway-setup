@@ -1,0 +1,191 @@
+2024-01-16T14:17:27,077 [-] [Framework Event Dispatcher: Equinox Container: c8750626-df1a-4a72-a619-9e8f8f6d496d]  WARN ApplicationManagementServiceComponent Templates directory not found at /home/wso2carbon/wso2am-4.0.0/repository/resources/identity/authntemplates
+2024-01-16T14:18:16,930 [-] [Framework Event Dispatcher: Equinox Container: c8750626-df1a-4a72-a619-9e8f8f6d496d]  WARN SSLUtilBase jsseUtil.trustedCertNotValid
+2024-01-16T14:18:16,931 [-] [Framework Event Dispatcher: Equinox Container: c8750626-df1a-4a72-a619-9e8f8f6d496d]  WARN SSLUtilBase jsseUtil.trustedCertNotValid
+2024-01-16T14:18:16,932 [-] [Framework Event Dispatcher: Equinox Container: c8750626-df1a-4a72-a619-9e8f8f6d496d]  WARN SSLUtilBase jsseUtil.trustedCertNotValid
+2024-01-16T14:18:16,932 [-] [Framework Event Dispatcher: Equinox Container: c8750626-df1a-4a72-a619-9e8f8f6d496d]  WARN SSLUtilBase jsseUtil.trustedCertNotValid
+2024-01-16T14:18:16,933 [-] [Framework Event Dispatcher: Equinox Container: c8750626-df1a-4a72-a619-9e8f8f6d496d]  WARN SSLUtilBase jsseUtil.trustedCertNotValid
+2024-01-16T14:18:16,934 [-] [Framework Event Dispatcher: Equinox Container: c8750626-df1a-4a72-a619-9e8f8f6d496d]  WARN SSLUtilBase jsseUtil.trustedCertNotValid
+2024-01-16T14:18:16,934 [-] [Framework Event Dispatcher: Equinox Container: c8750626-df1a-4a72-a619-9e8f8f6d496d]  WARN SSLUtilBase jsseUtil.trustedCertNotValid
+2024-01-16T14:18:16,935 [-] [Framework Event Dispatcher: Equinox Container: c8750626-df1a-4a72-a619-9e8f8f6d496d]  WARN SSLUtilBase jsseUtil.trustedCertNotValid
+2024-01-16T14:18:16,936 [-] [Framework Event Dispatcher: Equinox Container: c8750626-df1a-4a72-a619-9e8f8f6d496d]  WARN SSLUtilBase jsseUtil.trustedCertNotValid
+2024-01-16T14:18:16,937 [-] [Framework Event Dispatcher: Equinox Container: c8750626-df1a-4a72-a619-9e8f8f6d496d]  WARN SSLUtilBase jsseUtil.trustedCertNotValid
+2024-01-16T14:18:16,938 [-] [Framework Event Dispatcher: Equinox Container: c8750626-df1a-4a72-a619-9e8f8f6d496d]  WARN SSLUtilBase jsseUtil.trustedCertNotValid
+2024-01-16T14:18:16,939 [-] [Framework Event Dispatcher: Equinox Container: c8750626-df1a-4a72-a619-9e8f8f6d496d]  WARN SSLUtilBase jsseUtil.trustedCertNotValid
+2024-01-16T14:18:16,940 [-] [Framework Event Dispatcher: Equinox Container: c8750626-df1a-4a72-a619-9e8f8f6d496d]  WARN SSLUtilBase jsseUtil.trustedCertNotValid
+2024-01-16T14:18:16,941 [-] [Framework Event Dispatcher: Equinox Container: c8750626-df1a-4a72-a619-9e8f8f6d496d]  WARN SSLUtilBase jsseUtil.trustedCertNotValid
+2024-01-16T14:18:16,942 [-] [Framework Event Dispatcher: Equinox Container: c8750626-df1a-4a72-a619-9e8f8f6d496d]  WARN SSLUtilBase jsseUtil.trustedCertNotValid
+2024-01-16T14:18:16,943 [-] [Framework Event Dispatcher: Equinox Container: c8750626-df1a-4a72-a619-9e8f8f6d496d]  WARN SSLUtilBase jsseUtil.trustedCertNotValid
+2024-01-16T14:18:20,502 [-] [https-jsse-nio-9443-exec-15] ERROR OIDCSessionIFrameServlet Error while retrieving OAuth application information for the provided client id : niT7Bd8Bp9_juO6qQdxu57fJOA4a, Cannot find an application associated with the given consumer key : niT7Bd8Bp9_juO6qQdxu57fJOA4a
+2024-01-16T14:18:24,814 [-] [https-jsse-nio-9443-exec-13] ERROR WebAppAuthenticatorImpl Invalid OAuth Token : Invalid Access Token. ACTIVE access token is not found.
+2024-01-16T14:18:24,815 [-] [https-jsse-nio-9443-exec-13] ERROR WebAppAuthenticatorImpl Provided access token is invalid
+2024-01-16T14:18:32,192 [-] [HTTPS-Listener I/O dispatcher-18]  WARN AccessConfiguration Error loading properties from file: access-log.properties
+2024-01-16T14:18:32,196 [-] [HTTPS-Listener I/O dispatcher-18]  WARN MiscellaneousUtil Error loading properties from a file at from the System defined location: access-log.properties
+2024-01-16T14:18:32,199 [-] [HTTPS-Listener I/O dispatcher-18]  WARN MiscellaneousUtil Error loading properties from a file at from the System defined location: access-log.properties
+2024-01-16T14:21:49,577 [-] [https-jsse-nio-9443-exec-21] ERROR CompositeValve Could not handle the request, could be due to the maxHttpHeaderSize limitation. 
+java.lang.NullPointerException: null
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.invoke(CompositeValve.java:46) [org.wso2.carbon.tomcat.ext_4.6.2.jar:?]
+	at org.wso2.carbon.tomcat.ext.valves.CarbonStuckThreadDetectionValve.invoke(CarbonStuckThreadDetectionValve.java:145) [org.wso2.carbon.tomcat.ext_4.6.2.jar:?]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690) [tomcat_9.0.34.wso2v1.jar:?]
+	at org.wso2.carbon.tomcat.ext.valves.CarbonContextCreatorValve.invoke(CarbonContextCreatorValve.java:57) [org.wso2.carbon.tomcat.ext_4.6.2.jar:?]
+	at org.wso2.carbon.tomcat.ext.valves.RequestCorrelationIdValve.invoke(RequestCorrelationIdValve.java:126) [org.wso2.carbon.tomcat.ext_4.6.2.jar:?]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat_9.0.34.wso2v1.jar:?]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat_9.0.34.wso2v1.jar:?]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) [tomcat_9.0.34.wso2v1.jar:?]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat_9.0.34.wso2v1.jar:?]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat_9.0.34.wso2v1.jar:?]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) [tomcat_9.0.34.wso2v1.jar:?]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat_9.0.34.wso2v1.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat_9.0.34.wso2v1.jar:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+2024-01-16T14:21:54,900 [-] [https-jsse-nio-9443-exec-43]  WARN OAuth2AuthzEndpoint No session state found for the received Session ID : b7b7fc9c-3a24-4d5b-9203-64073bf740d3
+2024-01-16T14:23:26,214 [-] [https-jsse-nio-9443-exec-1] ERROR WebAppAuthenticatorImpl Invalid OAuth Token : Invalid Access Token. ACTIVE access token is not found.
+2024-01-16T14:23:26,214 [-] [https-jsse-nio-9443-exec-1] ERROR WebAppAuthenticatorImpl Provided access token is invalid
+2024-01-16T14:23:26,845 [-] [https-jsse-nio-9443-exec-18] ERROR WebAppManager org.mozilla.javascript.EcmaError: TypeError: Cannot call method "match" of undefined (/devportal/services/login/introspect.jag#51)
+org.jaggeryjs.scriptengine.exceptions.ScriptException: org.mozilla.javascript.EcmaError: TypeError: Cannot call method "match" of undefined (/devportal/services/login/introspect.jag#51)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.execScript(RhinoEngine.java:587) ~[org.jaggeryjs.scriptengine_0.14.13.jar:?]
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.exec(RhinoEngine.java:289) ~[org.jaggeryjs.scriptengine_0.14.13.jar:?]
+	at org.jaggeryjs.jaggery.core.manager.WebAppManager.exec(WebAppManager.java:589) [org.jaggeryjs.jaggery.core_0.14.13.jar:?]
+	at org.jaggeryjs.jaggery.core.manager.WebAppManager.execute(WebAppManager.java:508) [org.jaggeryjs.jaggery.core_0.14.13.jar:?]
+	at org.jaggeryjs.jaggery.core.JaggeryServlet.doGet(JaggeryServlet.java:24) [org.jaggeryjs.jaggery.core_0.14.13.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) [tomcat-servlet-api_9.0.34.wso2v1.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-servlet-api_9.0.34.wso2v1.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat_9.0.34.wso2v1.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat_9.0.34.wso2v1.jar:?]
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712) [tomcat_9.0.34.wso2v1.jar:?]
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459) [tomcat_9.0.34.wso2v1.jar:?]
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:352) [tomcat_9.0.34.wso2v1.jar:?]
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312) [tomcat_9.0.34.wso2v1.jar:?]
+	at org.jaggeryjs.jaggery.core.JaggeryFilter.doFilter(JaggeryFilter.java:76) [org.jaggeryjs.jaggery.core_0.14.13.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat_9.0.34.wso2v1.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat_9.0.34.wso2v1.jar:?]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat_9.0.34.wso2v1.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat_9.0.34.wso2v1.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat_9.0.34.wso2v1.jar:?]
+	at org.wso2.carbon.ui.filters.cache.ContentTypeBasedCachePreventionFilter.doFilter(ContentTypeBasedCachePreventionFilter.java:53) [org.wso2.carbon.ui_4.6.2.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat_9.0.34.wso2v1.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat_9.0.34.wso2v1.jar:?]
+	at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:126) [tomcat_9.0.34.wso2v1.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat_9.0.34.wso2v1.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat_9.0.34.wso2v1.jar:?]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat_9.0.34.wso2v1.jar:?]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat_9.0.34.wso2v1.jar:?]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat_9.0.34.wso2v1.jar:?]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat_9.0.34.wso2v1.jar:?]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat_9.0.34.wso2v1.jar:?]
+	at org.wso2.carbon.identity.context.rewrite.valve.TenantContextRewriteValve.invoke(TenantContextRewriteValve.java:107) [org.wso2.carbon.identity.context.rewrite.valve_1.4.25.jar:?]
+	at org.wso2.carbon.identity.authz.valve.AuthorizationValve.invoke(AuthorizationValve.java:110) [org.wso2.carbon.identity.authz.valve_1.4.25.jar:?]
+	at org.wso2.carbon.identity.auth.valve.AuthenticationValve.invoke(AuthenticationValve.java:102) [org.wso2.carbon.identity.auth.valve_1.4.25.jar:?]
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.continueInvocation(CompositeValve.java:101) [org.wso2.carbon.tomcat.ext_4.6.2.jar:?]
+	at org.wso2.carbon.tomcat.ext.valves.TomcatValveContainer.invokeValves(TomcatValveContainer.java:49) [org.wso2.carbon.tomcat.ext_4.6.2.jar:?]
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.invoke(CompositeValve.java:62) [org.wso2.carbon.tomcat.ext_4.6.2.jar:?]
+	at org.wso2.carbon.tomcat.ext.valves.CarbonStuckThreadDetectionValve.invoke(CarbonStuckThreadDetectionValve.java:145) [org.wso2.carbon.tomcat.ext_4.6.2.jar:?]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690) [tomcat_9.0.34.wso2v1.jar:?]
+	at org.wso2.carbon.tomcat.ext.valves.CarbonContextCreatorValve.invoke(CarbonContextCreatorValve.java:57) [org.wso2.carbon.tomcat.ext_4.6.2.jar:?]
+	at org.wso2.carbon.tomcat.ext.valves.RequestCorrelationIdValve.invoke(RequestCorrelationIdValve.java:126) [org.wso2.carbon.tomcat.ext_4.6.2.jar:?]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat_9.0.34.wso2v1.jar:?]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat_9.0.34.wso2v1.jar:?]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) [tomcat_9.0.34.wso2v1.jar:?]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat_9.0.34.wso2v1.jar:?]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat_9.0.34.wso2v1.jar:?]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) [tomcat_9.0.34.wso2v1.jar:?]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat_9.0.34.wso2v1.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat_9.0.34.wso2v1.jar:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: org.mozilla.javascript.EcmaError: TypeError: Cannot call method "match" of undefined (/devportal/services/login/introspect.jag#51)
+	at org.mozilla.javascript.ScriptRuntime.constructError(ScriptRuntime.java:3687) ~[js_1.7.0.R4wso2v1.jar:?]
+	at org.mozilla.javascript.ScriptRuntime.constructError(ScriptRuntime.java:3665) ~[js_1.7.0.R4wso2v1.jar:?]
+	at org.mozilla.javascript.ScriptRuntime.typeError(ScriptRuntime.java:3693) ~[js_1.7.0.R4wso2v1.jar:?]
+	at org.mozilla.javascript.ScriptRuntime.typeError2(ScriptRuntime.java:3712) ~[js_1.7.0.R4wso2v1.jar:?]
+	at org.mozilla.javascript.ScriptRuntime.undefCallError(ScriptRuntime.java:3731) ~[js_1.7.0.R4wso2v1.jar:?]
+	at org.mozilla.javascript.ScriptRuntime.getPropFunctionAndThisHelper(ScriptRuntime.java:2258) ~[js_1.7.0.R4wso2v1.jar:?]
+	at org.mozilla.javascript.ScriptRuntime.getPropFunctionAndThis(ScriptRuntime.java:2251) ~[js_1.7.0.R4wso2v1.jar:?]
+	at org.jaggeryjs.rhino.devportal.services.login.c0._c_script_0(/devportal/services/login/introspect.jag:51) ~[?:?]
+	at org.jaggeryjs.rhino.devportal.services.login.c0.call(/devportal/services/login/introspect.jag) ~[?:?]
+	at org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:394) ~[js_1.7.0.R4wso2v1.jar:?]
+	at org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3091) ~[js_1.7.0.R4wso2v1.jar:?]
+	at org.jaggeryjs.rhino.devportal.services.login.c0.call(/devportal/services/login/introspect.jag) ~[?:?]
+	at org.jaggeryjs.rhino.devportal.services.login.c0.exec(/devportal/services/login/introspect.jag) ~[?:?]
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.execScript(RhinoEngine.java:583) ~[org.jaggeryjs.scriptengine_0.14.13.jar:?]
+	... 50 more
+2024-01-16T14:23:58,779 [-] [HTTPS-Listener I/O dispatcher-19]  WARN SourceHandler I/O error: Received fatal alert: certificate_unknown
+2024-01-16T14:23:59,093 [-] [PassThroughMessageProcessor-3] ERROR ClientUtils The system cannot infer the transport information from the jsonplaceholder.typicode.com/users URL.
+2024-01-16T14:23:59,094 [-] [PassThroughMessageProcessor-3] ERROR Axis2Sender {api:JSONPlaceHolder:vv1} Unexpected error during sending message out
+org.apache.axis2.AxisFault: The system cannot infer the transport information from the jsonplaceholder.typicode.com/users URL.
+	at org.apache.axis2.description.ClientUtils.inferOutTransport(ClientUtils.java:86) ~[axis2_1.6.1.wso2v63.jar:?]
+	at org.apache.synapse.core.axis2.DynamicAxisOperation$DynamicOperationClient.executeImpl(DynamicAxisOperation.java:116) ~[synapse-core_2.1.7.wso2v227.jar:2.1.7-wso2v227]
+	at org.apache.axis2.client.OperationClient.execute(OperationClient.java:149) ~[axis2_1.6.1.wso2v63.jar:?]
+	at org.apache.synapse.core.axis2.Axis2FlexibleMEPClient.send(Axis2FlexibleMEPClient.java:678) ~[synapse-core_2.1.7.wso2v227.jar:2.1.7-wso2v227]
+	at org.apache.synapse.core.axis2.Axis2Sender.sendOn(Axis2Sender.java:86) [synapse-core_2.1.7.wso2v227.jar:2.1.7-wso2v227]
+	at org.apache.synapse.core.axis2.Axis2SynapseEnvironment.send(Axis2SynapseEnvironment.java:586) [synapse-core_2.1.7.wso2v227.jar:2.1.7-wso2v227]
+	at org.apache.synapse.endpoints.AbstractEndpoint.send(AbstractEndpoint.java:409) [synapse-core_2.1.7.wso2v227.jar:2.1.7-wso2v227]
+	at org.apache.synapse.endpoints.HTTPEndpoint.send(HTTPEndpoint.java:99) [synapse-core_2.1.7.wso2v227.jar:2.1.7-wso2v227]
+	at org.apache.synapse.endpoints.IndirectEndpoint.send(IndirectEndpoint.java:56) [synapse-core_2.1.7.wso2v227.jar:2.1.7-wso2v227]
+	at org.apache.synapse.mediators.builtin.SendMediator.mediate(SendMediator.java:123) [synapse-core_2.1.7.wso2v227.jar:2.1.7-wso2v227]
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:109) [synapse-core_2.1.7.wso2v227.jar:2.1.7-wso2v227]
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:71) [synapse-core_2.1.7.wso2v227.jar:2.1.7-wso2v227]
+	at org.apache.synapse.mediators.filters.FilterMediator.mediate(FilterMediator.java:171) [synapse-core_2.1.7.wso2v227.jar:2.1.7-wso2v227]
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:109) [synapse-core_2.1.7.wso2v227.jar:2.1.7-wso2v227]
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:71) [synapse-core_2.1.7.wso2v227.jar:2.1.7-wso2v227]
+	at org.apache.synapse.mediators.base.SequenceMediator.mediate(SequenceMediator.java:158) [synapse-core_2.1.7.wso2v227.jar:2.1.7-wso2v227]
+	at org.apache.synapse.api.Resource.process(Resource.java:342) [synapse-core_2.1.7.wso2v227.jar:2.1.7-wso2v227]
+	at org.apache.synapse.api.API.process(API.java:463) [synapse-core_2.1.7.wso2v227.jar:2.1.7-wso2v227]
+	at org.apache.synapse.api.AbstractApiHandler.apiProcessNonDefaultStrategy(AbstractApiHandler.java:107) [synapse-core_2.1.7.wso2v227.jar:2.1.7-wso2v227]
+	at org.apache.synapse.api.AbstractApiHandler.identifyAPI(AbstractApiHandler.java:127) [synapse-core_2.1.7.wso2v227.jar:2.1.7-wso2v227]
+	at org.apache.synapse.api.AbstractApiHandler.dispatchToAPI(AbstractApiHandler.java:59) [synapse-core_2.1.7.wso2v227.jar:2.1.7-wso2v227]
+	at org.apache.synapse.api.rest.RestRequestHandler.dispatchToAPI(RestRequestHandler.java:84) [synapse-core_2.1.7.wso2v227.jar:2.1.7-wso2v227]
+	at org.apache.synapse.api.rest.RestRequestHandler.process(RestRequestHandler.java:70) [synapse-core_2.1.7.wso2v227.jar:2.1.7-wso2v227]
+	at org.apache.synapse.rest.RESTRequestHandler.process(RESTRequestHandler.java:54) [synapse-core_2.1.7.wso2v227.jar:2.1.7-wso2v227]
+	at org.apache.synapse.core.axis2.Axis2SynapseEnvironment.injectMessage(Axis2SynapseEnvironment.java:344) [synapse-core_2.1.7.wso2v227.jar:2.1.7-wso2v227]
+	at org.apache.synapse.core.axis2.SynapseMessageReceiver.receive(SynapseMessageReceiver.java:101) [synapse-core_2.1.7.wso2v227.jar:2.1.7-wso2v227]
+	at org.apache.axis2.engine.AxisEngine.receive(AxisEngine.java:180) [axis2_1.6.1.wso2v63.jar:?]
+	at org.apache.synapse.transport.passthru.ServerWorker.processNonEntityEnclosingRESTHandler(ServerWorker.java:375) [synapse-nhttp-transport_2.1.7.wso2v227.jar:?]
+	at org.apache.synapse.transport.passthru.ServerWorker.run(ServerWorker.java:189) [synapse-nhttp-transport_2.1.7.wso2v227.jar:?]
+	at org.apache.axis2.transport.base.threads.NativeWorkerPool$1.run(NativeWorkerPool.java:172) [axis2_1.6.1.wso2v63.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+2024-01-16T14:23:59,131 [-] [PassThroughMessageProcessor-3]  WARN EndpointContext Endpoint : JSONPlaceHolder--vv1_APIproductionEndpoint with address jsonplaceholder.typicode.com/ will be marked SUSPENDED as it failed
+2024-01-16T14:23:59,132 [-] [PassThroughMessageProcessor-3]  WARN EndpointContext Suspending endpoint : JSONPlaceHolder--vv1_APIproductionEndpoint with address jsonplaceholder.typicode.com/ - current suspend duration is : 30000ms - Next retry after : Tue Jan 16 14:24:29 GMT 2024
+2024-01-16T14:24:39,810 [-] [PassThroughMessageProcessor-4]  WARN APIAuthenticationHandler API authentication failure due to Invalid Credentials
+2024-01-16T14:24:49,460 [-] [PassThroughMessageProcessor-5] ERROR ClientUtils The system cannot infer the transport information from the jsonplaceholder.typicode.com/users URL.
+2024-01-16T14:24:49,461 [-] [PassThroughMessageProcessor-5] ERROR Axis2Sender {api:JSONPlaceHolder:vv1} Unexpected error during sending message out
+org.apache.axis2.AxisFault: The system cannot infer the transport information from the jsonplaceholder.typicode.com/users URL.
+	at org.apache.axis2.description.ClientUtils.inferOutTransport(ClientUtils.java:86) ~[axis2_1.6.1.wso2v63.jar:?]
+	at org.apache.synapse.core.axis2.DynamicAxisOperation$DynamicOperationClient.executeImpl(DynamicAxisOperation.java:116) ~[synapse-core_2.1.7.wso2v227.jar:2.1.7-wso2v227]
+	at org.apache.axis2.client.OperationClient.execute(OperationClient.java:149) ~[axis2_1.6.1.wso2v63.jar:?]
+	at org.apache.synapse.core.axis2.Axis2FlexibleMEPClient.send(Axis2FlexibleMEPClient.java:678) ~[synapse-core_2.1.7.wso2v227.jar:2.1.7-wso2v227]
+	at org.apache.synapse.core.axis2.Axis2Sender.sendOn(Axis2Sender.java:86) [synapse-core_2.1.7.wso2v227.jar:2.1.7-wso2v227]
+	at org.apache.synapse.core.axis2.Axis2SynapseEnvironment.send(Axis2SynapseEnvironment.java:586) [synapse-core_2.1.7.wso2v227.jar:2.1.7-wso2v227]
+	at org.apache.synapse.endpoints.AbstractEndpoint.send(AbstractEndpoint.java:409) [synapse-core_2.1.7.wso2v227.jar:2.1.7-wso2v227]
+	at org.apache.synapse.endpoints.HTTPEndpoint.send(HTTPEndpoint.java:99) [synapse-core_2.1.7.wso2v227.jar:2.1.7-wso2v227]
+	at org.apache.synapse.endpoints.IndirectEndpoint.send(IndirectEndpoint.java:56) [synapse-core_2.1.7.wso2v227.jar:2.1.7-wso2v227]
+	at org.apache.synapse.mediators.builtin.SendMediator.mediate(SendMediator.java:123) [synapse-core_2.1.7.wso2v227.jar:2.1.7-wso2v227]
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:109) [synapse-core_2.1.7.wso2v227.jar:2.1.7-wso2v227]
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:71) [synapse-core_2.1.7.wso2v227.jar:2.1.7-wso2v227]
+	at org.apache.synapse.mediators.filters.FilterMediator.mediate(FilterMediator.java:171) [synapse-core_2.1.7.wso2v227.jar:2.1.7-wso2v227]
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:109) [synapse-core_2.1.7.wso2v227.jar:2.1.7-wso2v227]
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:71) [synapse-core_2.1.7.wso2v227.jar:2.1.7-wso2v227]
+	at org.apache.synapse.mediators.base.SequenceMediator.mediate(SequenceMediator.java:158) [synapse-core_2.1.7.wso2v227.jar:2.1.7-wso2v227]
+	at org.apache.synapse.api.Resource.process(Resource.java:342) [synapse-core_2.1.7.wso2v227.jar:2.1.7-wso2v227]
+	at org.apache.synapse.api.API.process(API.java:463) [synapse-core_2.1.7.wso2v227.jar:2.1.7-wso2v227]
+	at org.apache.synapse.api.AbstractApiHandler.apiProcessNonDefaultStrategy(AbstractApiHandler.java:107) [synapse-core_2.1.7.wso2v227.jar:2.1.7-wso2v227]
+	at org.apache.synapse.api.AbstractApiHandler.identifyAPI(AbstractApiHandler.java:127) [synapse-core_2.1.7.wso2v227.jar:2.1.7-wso2v227]
+	at org.apache.synapse.api.AbstractApiHandler.dispatchToAPI(AbstractApiHandler.java:59) [synapse-core_2.1.7.wso2v227.jar:2.1.7-wso2v227]
+	at org.apache.synapse.api.rest.RestRequestHandler.dispatchToAPI(RestRequestHandler.java:84) [synapse-core_2.1.7.wso2v227.jar:2.1.7-wso2v227]
+	at org.apache.synapse.api.rest.RestRequestHandler.process(RestRequestHandler.java:70) [synapse-core_2.1.7.wso2v227.jar:2.1.7-wso2v227]
+	at org.apache.synapse.rest.RESTRequestHandler.process(RESTRequestHandler.java:54) [synapse-core_2.1.7.wso2v227.jar:2.1.7-wso2v227]
+	at org.apache.synapse.core.axis2.Axis2SynapseEnvironment.injectMessage(Axis2SynapseEnvironment.java:344) [synapse-core_2.1.7.wso2v227.jar:2.1.7-wso2v227]
+	at org.apache.synapse.core.axis2.SynapseMessageReceiver.receive(SynapseMessageReceiver.java:101) [synapse-core_2.1.7.wso2v227.jar:2.1.7-wso2v227]
+	at org.apache.axis2.engine.AxisEngine.receive(AxisEngine.java:180) [axis2_1.6.1.wso2v63.jar:?]
+	at org.apache.synapse.transport.passthru.ServerWorker.processNonEntityEnclosingRESTHandler(ServerWorker.java:375) [synapse-nhttp-transport_2.1.7.wso2v227.jar:?]
+	at org.apache.synapse.transport.passthru.ServerWorker.run(ServerWorker.java:189) [synapse-nhttp-transport_2.1.7.wso2v227.jar:?]
+	at org.apache.axis2.transport.base.threads.NativeWorkerPool$1.run(NativeWorkerPool.java:172) [axis2_1.6.1.wso2v63.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+2024-01-16T14:24:49,494 [-] [PassThroughMessageProcessor-5]  WARN EndpointContext Endpoint : JSONPlaceHolder--vv1_APIproductionEndpoint with address jsonplaceholder.typicode.com/ will be marked SUSPENDED as it failed
+2024-01-16T14:24:49,494 [-] [PassThroughMessageProcessor-5]  WARN EndpointContext Suspending endpoint : JSONPlaceHolder--vv1_APIproductionEndpoint with address jsonplaceholder.typicode.com/ - last suspend duration was : 30000ms and current suspend duration is : 30000ms - Next retry after : Tue Jan 16 14:25:19 GMT 2024
