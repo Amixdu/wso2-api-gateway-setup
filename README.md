@@ -1,4 +1,8 @@
-# Run base instance
+1. docker-compose build
+2. docker-compose up
+3. Access https://localhost:9443/
+
+### compose file to run base image
 version: '3'
 services:
   wso2am:
@@ -14,7 +18,7 @@ networks:
   wso2net:
 
 
-# Run from Dockerfile
+### compose file to run from Dockerfile
 version: '3'
 services:
   wso2am:
