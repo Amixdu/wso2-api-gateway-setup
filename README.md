@@ -3,6 +3,7 @@
 3. Access https://localhost:9443/
 
 ### compose file to run base image
+```yaml
 version: '3'
 services:
   wso2am:
@@ -16,9 +17,10 @@ services:
 
 networks:
   wso2net:
-
+```
 
 ### compose file to run from Dockerfile
+```yaml
 version: '3'
 services:
   wso2am:
@@ -29,3 +31,4 @@ services:
       - "9443:9443"
     volumes:
       - ./exported-configs:/home/wso2carbon/wso2am-4.0.0/repository/
+```
