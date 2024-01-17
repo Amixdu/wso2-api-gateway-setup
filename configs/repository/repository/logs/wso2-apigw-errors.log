@@ -1,0 +1,164 @@
+2024-01-17T06:34:49,612 [-] [Framework Event Dispatcher: Equinox Container: 68357aa8-ed79-4dc4-8d8c-088aa53739fd]  WARN ApplicationManagementServiceComponent Templates directory not found at /home/wso2carbon/wso2am-4.0.0/repository/resources/identity/authntemplates
+2024-01-17T06:34:56,226 [-] [Framework Event Dispatcher: Equinox Container: 68357aa8-ed79-4dc4-8d8c-088aa53739fd] ERROR EventProcessorDeployer Execution plan is not deployed and in inactive state : carbon.super_resource_50KPerMin_defualt.siddhiql
+org.wso2.carbon.event.processor.core.exception.ExecutionPlanConfigurationException: Execution plan with the same name already exists. Please remove it and retry.
+	at org.wso2.carbon.event.processor.core.internal.CarbonEventProcessorService.addExecutionPlan(CarbonEventProcessorService.java:239) ~[org.wso2.carbon.event.processor.core_2.2.14.jar:?]
+	at org.wso2.carbon.event.processor.core.EventProcessorDeployer.processDeploy(EventProcessorDeployer.java:124) [org.wso2.carbon.event.processor.core_2.2.14.jar:?]
+	at org.wso2.carbon.event.processor.core.EventProcessorDeployer.deploy(EventProcessorDeployer.java:69) [org.wso2.carbon.event.processor.core_2.2.14.jar:?]
+	at org.apache.axis2.deployment.repository.util.DeploymentFileData.deploy(DeploymentFileData.java:136) [axis2_1.6.1.wso2v63.jar:?]
+	at org.apache.axis2.deployment.DeploymentEngine.doDeploy(DeploymentEngine.java:807) [axis2_1.6.1.wso2v63.jar:?]
+	at org.apache.axis2.deployment.repository.util.WSInfoList.update(WSInfoList.java:153) [axis2_1.6.1.wso2v63.jar:?]
+	at org.apache.axis2.deployment.RepositoryListener.update(RepositoryListener.java:377) [axis2_1.6.1.wso2v63.jar:?]
+	at org.apache.axis2.deployment.RepositoryListener.checkServices(RepositoryListener.java:254) [axis2_1.6.1.wso2v63.jar:?]
+	at org.apache.synapse.Axis2SynapseController.deployMediatorExtensions(Axis2SynapseController.java:785) [synapse-core_2.1.7.wso2v227.jar:2.1.7-wso2v227]
+	at org.apache.synapse.Axis2SynapseController.createSynapseEnvironment(Axis2SynapseController.java:403) [synapse-core_2.1.7.wso2v227.jar:2.1.7-wso2v227]
+	at org.apache.synapse.ServerManager.start(ServerManager.java:187) [synapse-core_2.1.7.wso2v227.jar:2.1.7-wso2v227]
+	at org.wso2.carbon.mediation.initializer.ServiceBusInitializer.initESB(ServiceBusInitializer.java:371) [org.wso2.carbon.mediation.initializer_4.7.99.jar:?]
+	at org.wso2.carbon.mediation.initializer.ServiceBusInitializer.activate(ServiceBusInitializer.java:170) [org.wso2.carbon.mediation.initializer_4.7.99.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.eclipse.equinox.internal.ds.model.ServiceComponent.activate(ServiceComponent.java:260) [org.eclipse.equinox.ds_1.4.400.v20160226-2036.jar:?]
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.activate(ServiceComponentProp.java:146) [org.eclipse.equinox.ds_1.4.400.v20160226-2036.jar:?]
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.build(ServiceComponentProp.java:345) [org.eclipse.equinox.ds_1.4.400.v20160226-2036.jar:?]
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponent(InstanceProcess.java:620) [org.eclipse.equinox.ds_1.4.400.v20160226-2036.jar:?]
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponents(InstanceProcess.java:197) [org.eclipse.equinox.ds_1.4.400.v20160226-2036.jar:?]
+	at org.eclipse.equinox.internal.ds.Resolver.getEligible(Resolver.java:343) [org.eclipse.equinox.ds_1.4.400.v20160226-2036.jar:?]
+	at org.eclipse.equinox.internal.ds.SCRManager.serviceChanged(SCRManager.java:222) [org.eclipse.equinox.ds_1.4.400.v20160226-2036.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:113) [org.eclipse.osgi_3.14.0.v20190517-1309.jar:?]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.dispatchEvent(BundleContextImpl.java:985) [org.eclipse.osgi_3.14.0.v20190517-1309.jar:?]
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234) [org.eclipse.osgi_3.14.0.v20190517-1309.jar:?]
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151) [org.eclipse.osgi_3.14.0.v20190517-1309.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:866) [org.eclipse.osgi_3.14.0.v20190517-1309.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:804) [org.eclipse.osgi_3.14.0.v20190517-1309.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.register(ServiceRegistrationImpl.java:130) [org.eclipse.osgi_3.14.0.v20190517-1309.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.registerService(ServiceRegistry.java:228) [org.eclipse.osgi_3.14.0.v20190517-1309.jar:?]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:525) [org.eclipse.osgi_3.14.0.v20190517-1309.jar:?]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:544) [org.eclipse.osgi_3.14.0.v20190517-1309.jar:?]
+	at org.wso2.carbon.inbound.endpoint.persistence.service.InboundEndpointPersistenceServiceDSComponent.activate(InboundEndpointPersistenceServiceDSComponent.java:50) [org.wso2.carbon.inbound.endpoint.persistence_4.7.99.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.eclipse.equinox.internal.ds.model.ServiceComponent.activate(ServiceComponent.java:260) [org.eclipse.equinox.ds_1.4.400.v20160226-2036.jar:?]
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.activate(ServiceComponentProp.java:146) [org.eclipse.equinox.ds_1.4.400.v20160226-2036.jar:?]
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.build(ServiceComponentProp.java:345) [org.eclipse.equinox.ds_1.4.400.v20160226-2036.jar:?]
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponent(InstanceProcess.java:620) [org.eclipse.equinox.ds_1.4.400.v20160226-2036.jar:?]
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponents(InstanceProcess.java:197) [org.eclipse.equinox.ds_1.4.400.v20160226-2036.jar:?]
+	at org.eclipse.equinox.internal.ds.Resolver.getEligible(Resolver.java:343) [org.eclipse.equinox.ds_1.4.400.v20160226-2036.jar:?]
+	at org.eclipse.equinox.internal.ds.SCRManager.serviceChanged(SCRManager.java:222) [org.eclipse.equinox.ds_1.4.400.v20160226-2036.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:113) [org.eclipse.osgi_3.14.0.v20190517-1309.jar:?]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.dispatchEvent(BundleContextImpl.java:985) [org.eclipse.osgi_3.14.0.v20190517-1309.jar:?]
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234) [org.eclipse.osgi_3.14.0.v20190517-1309.jar:?]
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151) [org.eclipse.osgi_3.14.0.v20190517-1309.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:866) [org.eclipse.osgi_3.14.0.v20190517-1309.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:804) [org.eclipse.osgi_3.14.0.v20190517-1309.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.register(ServiceRegistrationImpl.java:130) [org.eclipse.osgi_3.14.0.v20190517-1309.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.registerService(ServiceRegistry.java:228) [org.eclipse.osgi_3.14.0.v20190517-1309.jar:?]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:525) [org.eclipse.osgi_3.14.0.v20190517-1309.jar:?]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:544) [org.eclipse.osgi_3.14.0.v20190517-1309.jar:?]
+	at org.wso2.carbon.core.init.CarbonServerManager.initializeCarbon(CarbonServerManager.java:529) [org.wso2.carbon.core_4.6.2.jar:?]
+	at org.wso2.carbon.core.init.CarbonServerManager.removePendingItem(CarbonServerManager.java:305) [org.wso2.carbon.core_4.6.2.jar:?]
+	at org.wso2.carbon.core.init.PreAxis2ConfigItemListener.bundleChanged(PreAxis2ConfigItemListener.java:118) [org.wso2.carbon.core_4.6.2.jar:?]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.dispatchEvent(BundleContextImpl.java:973) [org.eclipse.osgi_3.14.0.v20190517-1309.jar:?]
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234) [org.eclipse.osgi_3.14.0.v20190517-1309.jar:?]
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345) [org.eclipse.osgi_3.14.0.v20190517-1309.jar:?]
+2024-01-17T06:34:56,241 [-] [Framework Event Dispatcher: Equinox Container: 68357aa8-ed79-4dc4-8d8c-088aa53739fd] ERROR EventProcessorDeployer Can't deploy the execution plan: carbon.super_resource_50KPerMin_defualt.siddhiql
+org.apache.axis2.deployment.DeploymentException: Execution plan not deployed properly.
+	at org.wso2.carbon.event.processor.core.EventProcessorDeployer.deploy(EventProcessorDeployer.java:71) [org.wso2.carbon.event.processor.core_2.2.14.jar:?]
+	at org.apache.axis2.deployment.repository.util.DeploymentFileData.deploy(DeploymentFileData.java:136) [axis2_1.6.1.wso2v63.jar:?]
+	at org.apache.axis2.deployment.DeploymentEngine.doDeploy(DeploymentEngine.java:807) [axis2_1.6.1.wso2v63.jar:?]
+	at org.apache.axis2.deployment.repository.util.WSInfoList.update(WSInfoList.java:153) [axis2_1.6.1.wso2v63.jar:?]
+	at org.apache.axis2.deployment.RepositoryListener.update(RepositoryListener.java:377) [axis2_1.6.1.wso2v63.jar:?]
+	at org.apache.axis2.deployment.RepositoryListener.checkServices(RepositoryListener.java:254) [axis2_1.6.1.wso2v63.jar:?]
+	at org.apache.synapse.Axis2SynapseController.deployMediatorExtensions(Axis2SynapseController.java:785) [synapse-core_2.1.7.wso2v227.jar:2.1.7-wso2v227]
+	at org.apache.synapse.Axis2SynapseController.createSynapseEnvironment(Axis2SynapseController.java:403) [synapse-core_2.1.7.wso2v227.jar:2.1.7-wso2v227]
+	at org.apache.synapse.ServerManager.start(ServerManager.java:187) [synapse-core_2.1.7.wso2v227.jar:2.1.7-wso2v227]
+	at org.wso2.carbon.mediation.initializer.ServiceBusInitializer.initESB(ServiceBusInitializer.java:371) [org.wso2.carbon.mediation.initializer_4.7.99.jar:?]
+	at org.wso2.carbon.mediation.initializer.ServiceBusInitializer.activate(ServiceBusInitializer.java:170) [org.wso2.carbon.mediation.initializer_4.7.99.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.eclipse.equinox.internal.ds.model.ServiceComponent.activate(ServiceComponent.java:260) [org.eclipse.equinox.ds_1.4.400.v20160226-2036.jar:?]
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.activate(ServiceComponentProp.java:146) [org.eclipse.equinox.ds_1.4.400.v20160226-2036.jar:?]
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.build(ServiceComponentProp.java:345) [org.eclipse.equinox.ds_1.4.400.v20160226-2036.jar:?]
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponent(InstanceProcess.java:620) [org.eclipse.equinox.ds_1.4.400.v20160226-2036.jar:?]
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponents(InstanceProcess.java:197) [org.eclipse.equinox.ds_1.4.400.v20160226-2036.jar:?]
+	at org.eclipse.equinox.internal.ds.Resolver.getEligible(Resolver.java:343) [org.eclipse.equinox.ds_1.4.400.v20160226-2036.jar:?]
+	at org.eclipse.equinox.internal.ds.SCRManager.serviceChanged(SCRManager.java:222) [org.eclipse.equinox.ds_1.4.400.v20160226-2036.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:113) [org.eclipse.osgi_3.14.0.v20190517-1309.jar:?]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.dispatchEvent(BundleContextImpl.java:985) [org.eclipse.osgi_3.14.0.v20190517-1309.jar:?]
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234) [org.eclipse.osgi_3.14.0.v20190517-1309.jar:?]
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151) [org.eclipse.osgi_3.14.0.v20190517-1309.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:866) [org.eclipse.osgi_3.14.0.v20190517-1309.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:804) [org.eclipse.osgi_3.14.0.v20190517-1309.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.register(ServiceRegistrationImpl.java:130) [org.eclipse.osgi_3.14.0.v20190517-1309.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.registerService(ServiceRegistry.java:228) [org.eclipse.osgi_3.14.0.v20190517-1309.jar:?]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:525) [org.eclipse.osgi_3.14.0.v20190517-1309.jar:?]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:544) [org.eclipse.osgi_3.14.0.v20190517-1309.jar:?]
+	at org.wso2.carbon.inbound.endpoint.persistence.service.InboundEndpointPersistenceServiceDSComponent.activate(InboundEndpointPersistenceServiceDSComponent.java:50) [org.wso2.carbon.inbound.endpoint.persistence_4.7.99.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.eclipse.equinox.internal.ds.model.ServiceComponent.activate(ServiceComponent.java:260) [org.eclipse.equinox.ds_1.4.400.v20160226-2036.jar:?]
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.activate(ServiceComponentProp.java:146) [org.eclipse.equinox.ds_1.4.400.v20160226-2036.jar:?]
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.build(ServiceComponentProp.java:345) [org.eclipse.equinox.ds_1.4.400.v20160226-2036.jar:?]
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponent(InstanceProcess.java:620) [org.eclipse.equinox.ds_1.4.400.v20160226-2036.jar:?]
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponents(InstanceProcess.java:197) [org.eclipse.equinox.ds_1.4.400.v20160226-2036.jar:?]
+	at org.eclipse.equinox.internal.ds.Resolver.getEligible(Resolver.java:343) [org.eclipse.equinox.ds_1.4.400.v20160226-2036.jar:?]
+	at org.eclipse.equinox.internal.ds.SCRManager.serviceChanged(SCRManager.java:222) [org.eclipse.equinox.ds_1.4.400.v20160226-2036.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:113) [org.eclipse.osgi_3.14.0.v20190517-1309.jar:?]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.dispatchEvent(BundleContextImpl.java:985) [org.eclipse.osgi_3.14.0.v20190517-1309.jar:?]
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234) [org.eclipse.osgi_3.14.0.v20190517-1309.jar:?]
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151) [org.eclipse.osgi_3.14.0.v20190517-1309.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:866) [org.eclipse.osgi_3.14.0.v20190517-1309.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:804) [org.eclipse.osgi_3.14.0.v20190517-1309.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.register(ServiceRegistrationImpl.java:130) [org.eclipse.osgi_3.14.0.v20190517-1309.jar:?]
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.registerService(ServiceRegistry.java:228) [org.eclipse.osgi_3.14.0.v20190517-1309.jar:?]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:525) [org.eclipse.osgi_3.14.0.v20190517-1309.jar:?]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:544) [org.eclipse.osgi_3.14.0.v20190517-1309.jar:?]
+	at org.wso2.carbon.core.init.CarbonServerManager.initializeCarbon(CarbonServerManager.java:529) [org.wso2.carbon.core_4.6.2.jar:?]
+	at org.wso2.carbon.core.init.CarbonServerManager.removePendingItem(CarbonServerManager.java:305) [org.wso2.carbon.core_4.6.2.jar:?]
+	at org.wso2.carbon.core.init.PreAxis2ConfigItemListener.bundleChanged(PreAxis2ConfigItemListener.java:118) [org.wso2.carbon.core_4.6.2.jar:?]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.dispatchEvent(BundleContextImpl.java:973) [org.eclipse.osgi_3.14.0.v20190517-1309.jar:?]
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234) [org.eclipse.osgi_3.14.0.v20190517-1309.jar:?]
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345) [org.eclipse.osgi_3.14.0.v20190517-1309.jar:?]
+Caused by: org.wso2.carbon.event.processor.core.exception.ExecutionPlanConfigurationException: Execution plan with the same name already exists. Please remove it and retry.
+	at org.wso2.carbon.event.processor.core.EventProcessorDeployer.processDeploy(EventProcessorDeployer.java:154) ~[org.wso2.carbon.event.processor.core_2.2.14.jar:?]
+	at org.wso2.carbon.event.processor.core.EventProcessorDeployer.deploy(EventProcessorDeployer.java:69) ~[org.wso2.carbon.event.processor.core_2.2.14.jar:?]
+	... 59 more
+Caused by: org.wso2.carbon.event.processor.core.exception.ExecutionPlanConfigurationException: Execution plan with the same name already exists. Please remove it and retry.
+	at org.wso2.carbon.event.processor.core.internal.CarbonEventProcessorService.addExecutionPlan(CarbonEventProcessorService.java:239) ~[org.wso2.carbon.event.processor.core_2.2.14.jar:?]
+	at org.wso2.carbon.event.processor.core.EventProcessorDeployer.processDeploy(EventProcessorDeployer.java:124) ~[org.wso2.carbon.event.processor.core_2.2.14.jar:?]
+	at org.wso2.carbon.event.processor.core.EventProcessorDeployer.deploy(EventProcessorDeployer.java:69) ~[org.wso2.carbon.event.processor.core_2.2.14.jar:?]
+	... 59 more
+2024-01-17T06:35:37,601 [-] [Framework Event Dispatcher: Equinox Container: 68357aa8-ed79-4dc4-8d8c-088aa53739fd]  WARN SSLUtilBase jsseUtil.trustedCertNotValid
+2024-01-17T06:35:37,601 [-] [Framework Event Dispatcher: Equinox Container: 68357aa8-ed79-4dc4-8d8c-088aa53739fd]  WARN SSLUtilBase jsseUtil.trustedCertNotValid
+2024-01-17T06:35:37,602 [-] [Framework Event Dispatcher: Equinox Container: 68357aa8-ed79-4dc4-8d8c-088aa53739fd]  WARN SSLUtilBase jsseUtil.trustedCertNotValid
+2024-01-17T06:35:37,602 [-] [Framework Event Dispatcher: Equinox Container: 68357aa8-ed79-4dc4-8d8c-088aa53739fd]  WARN SSLUtilBase jsseUtil.trustedCertNotValid
+2024-01-17T06:35:37,603 [-] [Framework Event Dispatcher: Equinox Container: 68357aa8-ed79-4dc4-8d8c-088aa53739fd]  WARN SSLUtilBase jsseUtil.trustedCertNotValid
+2024-01-17T06:35:37,603 [-] [Framework Event Dispatcher: Equinox Container: 68357aa8-ed79-4dc4-8d8c-088aa53739fd]  WARN SSLUtilBase jsseUtil.trustedCertNotValid
+2024-01-17T06:35:37,604 [-] [Framework Event Dispatcher: Equinox Container: 68357aa8-ed79-4dc4-8d8c-088aa53739fd]  WARN SSLUtilBase jsseUtil.trustedCertNotValid
+2024-01-17T06:35:37,604 [-] [Framework Event Dispatcher: Equinox Container: 68357aa8-ed79-4dc4-8d8c-088aa53739fd]  WARN SSLUtilBase jsseUtil.trustedCertNotValid
+2024-01-17T06:35:37,604 [-] [Framework Event Dispatcher: Equinox Container: 68357aa8-ed79-4dc4-8d8c-088aa53739fd]  WARN SSLUtilBase jsseUtil.trustedCertNotValid
+2024-01-17T06:35:37,605 [-] [Framework Event Dispatcher: Equinox Container: 68357aa8-ed79-4dc4-8d8c-088aa53739fd]  WARN SSLUtilBase jsseUtil.trustedCertNotValid
+2024-01-17T06:35:37,606 [-] [Framework Event Dispatcher: Equinox Container: 68357aa8-ed79-4dc4-8d8c-088aa53739fd]  WARN SSLUtilBase jsseUtil.trustedCertNotValid
+2024-01-17T06:35:37,606 [-] [Framework Event Dispatcher: Equinox Container: 68357aa8-ed79-4dc4-8d8c-088aa53739fd]  WARN SSLUtilBase jsseUtil.trustedCertNotValid
+2024-01-17T06:35:37,607 [-] [Framework Event Dispatcher: Equinox Container: 68357aa8-ed79-4dc4-8d8c-088aa53739fd]  WARN SSLUtilBase jsseUtil.trustedCertNotValid
+2024-01-17T06:35:37,608 [-] [Framework Event Dispatcher: Equinox Container: 68357aa8-ed79-4dc4-8d8c-088aa53739fd]  WARN SSLUtilBase jsseUtil.trustedCertNotValid
+2024-01-17T06:35:37,609 [-] [Framework Event Dispatcher: Equinox Container: 68357aa8-ed79-4dc4-8d8c-088aa53739fd]  WARN SSLUtilBase jsseUtil.trustedCertNotValid
+2024-01-17T06:35:37,609 [-] [Framework Event Dispatcher: Equinox Container: 68357aa8-ed79-4dc4-8d8c-088aa53739fd]  WARN SSLUtilBase jsseUtil.trustedCertNotValid
+2024-01-17T06:37:27,697 [-] [HTTPS-Listener I/O dispatcher-18]  WARN AccessConfiguration Error loading properties from file: access-log.properties
+2024-01-17T06:37:27,702 [-] [HTTPS-Listener I/O dispatcher-18]  WARN MiscellaneousUtil Error loading properties from a file at from the System defined location: access-log.properties
+2024-01-17T06:37:27,705 [-] [HTTPS-Listener I/O dispatcher-18]  WARN MiscellaneousUtil Error loading properties from a file at from the System defined location: access-log.properties
+2024-01-17T06:37:27,983 [-] [PassThroughMessageProcessor-1]  WARN APIAuthenticationHandler API authentication failure due to Invalid Credentials
+2024-01-17T06:37:40,041 [-] [https-jsse-nio-9443-exec-35]  WARN refresh:jag Something went wrong while refreshing the token
+2024-01-17T06:37:40,042 [-] [https-jsse-nio-9443-exec-35] ERROR refresh:jag {}
+2024-01-17T06:37:40,068 [-] [https-jsse-nio-9443-exec-10] ERROR WebAppAuthenticatorImpl Invalid OAuth Token : Invalid Access Token. ACTIVE access token is not found.
+2024-01-17T06:37:40,068 [-] [https-jsse-nio-9443-exec-10] ERROR WebAppAuthenticatorImpl Provided access token is invalid
+2024-01-17T06:37:55,164 [-] [https-jsse-nio-9443-exec-30] ERROR PostAuthenticationInterceptor Authentication failed: Bearer/Basic authentication header is missing
+2024-01-17T06:37:55,164 [-] [https-jsse-nio-9443-exec-24] ERROR PostAuthenticationInterceptor Authentication failed: Bearer/Basic authentication header is missing
+2024-01-17T06:37:55,427 [-] [https-jsse-nio-9443-exec-1] ERROR PostAuthenticationInterceptor Authentication failed: Bearer/Basic authentication header is missing
+2024-01-17T06:38:04,850 [-] [https-jsse-nio-9443-exec-31]  WARN OAuth2AuthzEndpoint No session state found for the received Session ID : b553d13e-0302-42e1-a352-ad6a5f252e77

@@ -24,6 +24,7 @@ This is to copy the updated configs to the 'configs' folder, so that the next ti
 
 
 ## Method 2: Run from configured image
+Note: configured.tar image is not uploaded. Steps given below to create it. This method is best suited once development is finalized.
 
 ### Dockerfile:
 ```yaml
@@ -42,8 +43,9 @@ networks:
   wso2net:
 ```
 ### Steps:
-1. docker-compose up
-2. Access https://localhost:9443/
+1. docker load -i wso2-api-manager.tar
+2. docker-compose up
+3. Access https://localhost:9443/
 
 ### After making changes to the configuration
 This is to copy the updated configs to the 'configs' folder, and build an updated image, and convert it to a tar
