@@ -6,4 +6,3 @@
 ### After making changes to the configuration
 This is to copy the updated configs to the 'configs' folder, so that the next time docker-compose build is run, itll get updated with the new configs
 1. bash update.sh (update id and wso2am version accordingly)
-Note: If using windows, remove the 'sudo' commands from update.sh
